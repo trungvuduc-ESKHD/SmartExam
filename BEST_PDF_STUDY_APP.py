@@ -261,6 +261,7 @@ def main():
 
     session = login_form(
         url=SUPABASE_URL,
+        apiKey=SUPABASE_KEY,
         providers=["google"],
     )
     
