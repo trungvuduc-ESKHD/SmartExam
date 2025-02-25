@@ -441,6 +441,9 @@ def mc_quiz_app():
             st.session_state.current_question_index += 1
             st.rerun()
 
+
+
+
 def download_pdf_app():
     st.title('Download Your Exam as PDF')
 
